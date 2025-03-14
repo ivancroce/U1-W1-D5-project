@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@0;1&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #393d41;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 1rem;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+/* main-section */
+
+.banner {
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+  padding-bottom: 2.5rem 0;
+}
+
+main button {
+  background-color: #f04c2f;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*  article-container  */
+
+article {
+  padding: 3rem 0;
+}
+
+.notebook-img {
+  width: 300px;
+  margin: 2rem;
+  border-radius: 50%;
+}
+/* testimonials-section */
+
+.testimonials-section {
+  background-color: #e22d0e;
+  color: white;
+  padding: 2rem;
+}
+
+.testimonials-section h2 {
+  color: white;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+span {
+  font-size: 14px;
+}
+
+/* cards-container */
+
+.card1,
+.card2,
+.card3 {
+  border: 1px solid #dee1e3;
+  margin: 3rem 1rem;
+}
+
+.cards-container img {
+  width: 100%;
+}
+
+/* footer-container */
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding: 0 2rem;
+  padding-top: 2rem;
+  height: 350px;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+footer span {
+  font-size: 1.2rem;
+}
+
+.copyright {
+  border-top: 1px solid white;
+  padding-top: 2rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.copyright p {
+  margin: 0px;
+  font-size: 14px;
+}
