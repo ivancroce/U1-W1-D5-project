@@ -157,6 +157,11 @@ img {
   height: 450px;
   margin: 10px;
   vertical-align: top;
+  border-radius: 5px;
+}
+
+.cards-text {
+  padding: 0 10px;
 }
 
 .cards-section img {
@@ -180,10 +185,11 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: #cceeee;
 }
 
 i {
+  color: white;
   margin-right: 5px;
 }
 
@@ -204,6 +210,7 @@ ul {
   text-align: left;
 }
 ul li {
+  color: #c8e7f0;
   list-style: none;
   margin-left: 1rem;
   font-size: 1rem;
@@ -214,5 +221,6 @@ footer h2 {
 }
 
 footer p {
+  color: #c8e7f0;
   font-size: 0.9rem;
 }
